@@ -26,6 +26,15 @@ Try taking a look at the results and see what else the API returns.
   * Suggested route: `/people/:id`
   * Each "show" page should have a link to go back to the home page
 
+##Suggested Process
+
+* Install `react-router`
+* Include dependencies
+  * Documentation is your friend. https://github.com/reactjs/react-router
+* Identify the routes you'll need to create, and setup the app to use `react-router`.
+* Test the routes with some of the preexisting components
+* Incorporate links and route params
+
 ##Bonus
 
 * Add two additional pages
