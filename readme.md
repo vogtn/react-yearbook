@@ -47,3 +47,9 @@ Try taking a look at the results and see what else the API returns.
       * Best dressed
       * Weirdest smile
       * Top competitive eater
+
+---
+
+## Licensing
+1. All content is licensed under a CC-BY-NC-SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
