@@ -14,8 +14,8 @@ As WDI comes to a close, what better way to celebrate than with a yearbook... of
 
 The current application interacts with https://randomuser.me at two different API endpoints:
 
-* `/api/people` - returns 50 people
-* `/api/people/:idx` - returns a person at a particular index (0-49)
+* `/api?results=50` - returns 50 people
+* `https://randomuser.me/api/?seed=[seed]&id=[id]` - returns a particular person from the original call
 
 Try taking a look at the results and see what else the API returns.
 
@@ -23,7 +23,7 @@ Try taking a look at the results and see what else the API returns.
 
 * Incorporate React Router so that each person routes to a new page
   * Each person's name should link to a "show" page
-  * Suggested route: `/people/:id`
+  * Suggested route: `/people/:seed/:id` (you will need the seed that was used to generate the initial data, otherwise it will be completely random data)
   * Each "show" page should have a link to go back to the home page
 
 ##Suggested Process
